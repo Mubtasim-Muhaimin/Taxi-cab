@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Taxi Cab services including airport transfer, city rides, corporate taxi packages, luxury cabs, emergency taxi support, and pricing plans.">
+    <title>Taxi Cab Services | Pricing &amp; Premium Rides</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body data-page="services">
+    <div class="preloader" id="preloader" aria-hidden="true">
+        <div class="loader-taxi">
+            <i class="fa-solid fa-taxi"></i>
+            <span></span>
+        </div>
+    </div>
+
+    <header class="site-header fixed-top" id="siteHeader">
+        <nav class="navbar navbar-expand-lg" aria-label="Primary navigation">
+            <div class="container">
+                <a class="navbar-brand brand" href="index.html" aria-label="Taxi Cab home">
+                    <span class="brand-mark"><i class="fa-solid fa-taxi"></i></span>
+                    <span>Taxi <strong>Cab</strong></span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                    <button class="btn btn-brand ms-lg-3" type="button" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        Book Now
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero page-hero-services">
+            <div class="page-hero-overlay"></div>
+            <div class="container position-relative">
+                <span class="eyebrow reveal"><i class="fa-solid fa-car-side"></i> Taxi services</span>
+                <h1 class="reveal reveal-delay-1">Premium rides for every schedule</h1>
+                <p class="reveal reveal-delay-2">Book local rides, airport transfers, corporate transport, and emergency pickups with clear pricing and 24/7 support.</p>
+            </div>
+        </section>
+
+        <section class="section-padding" aria-labelledby="detailedServicesTitle">
+            <div class="container">
+                <div class="section-heading text-center reveal">
+                    <span class="section-kicker">Detailed services</span>
+                    <h2 id="detailedServicesTitle">Transportation that adapts to your plans</h2>
+                    <p>Every service includes trained drivers, clean cars, live tracking, and responsive support.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <article class="detail-card reveal">
+                            <span class="icon-box"><i class="fa-solid fa-plane-arrival"></i></span>
+                            <h3>Airport Transfer</h3>
+                            <p>Meet-and-greet service, flight monitoring, luggage help, and reliable pickup windows for departures and arrivals.</p>
+                            <a href="#pricing">View plan <i class="fa-solid fa-arrow-right"></i></a>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="detail-card reveal reveal-delay-1">
+                            <span class="icon-box"><i class="fa-solid fa-building-user"></i></span>
+                            <h3>Corporate Taxi</h3>
+                            <p>Executive ride scheduling, monthly reporting, priority dispatch, and invoice-friendly account management.</p>
+                            <a href="#corporate">Explore package <i class="fa-solid fa-arrow-right"></i></a>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="detail-card reveal reveal-delay-2">
+                            <span class="icon-box"><i class="fa-solid fa-champagne-glasses"></i></span>
+                            <h3>Event &amp; Luxury Cab</h3>
+                            <p>Premium sedans, polished drivers, and timed arrivals for weddings, dinners, conferences, and VIP guests.</p>
+                            <a href="#premium">See premium <i class="fa-solid fa-arrow-right"></i></a>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="detail-card reveal">
+                            <span class="icon-box"><i class="fa-solid fa-map"></i></span>
+                            <h3>Long Distance Ride</h3>
+                            <p>Comfort-focused intercity travel with route planning, wait-time options, and transparent trip estimates.</p>
+                            <a href="#pricing">View pricing <i class="fa-solid fa-arrow-right"></i></a>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="detail-card reveal reveal-delay-1">
+                            <span class="icon-box"><i class="fa-solid fa-van-shuttle"></i></span>
+                            <h3>Group Transport</h3>
+                            <p>Mini vans and SUVs for hotel guests, families, event crews, and teams traveling together with luggage.</p>
+                            <a href="#fleetService">Choose fleet <i class="fa-solid fa-arrow-right"></i></a>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="detail-card reveal reveal-delay-2">
+                            <span class="icon-box"><i class="fa-solid fa-triangle-exclamation"></i></span>
+                            <h3>Emergency Taxi Support</h3>
+                            <p>Fast dispatch for urgent pickups, late-night travel, hospital visits, and time-sensitive local rides.</p>
+                            <a href="#emergency">Get help <i class="fa-solid fa-arrow-right"></i></a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding pricing-section" id="pricing" aria-labelledby="pricingTitle">
+            <div class="container">
+                <div class="section-heading text-center reveal">
+                    <span class="section-kicker">Pricing plans</span>
+                    <h2 id="pricingTitle">Simple fares for everyday travel</h2>
+                    <p>Choose the plan that fits your route. Custom quotes are available for scheduled and high-volume rides.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <article class="pricing-card reveal">
+                            <img src="img/_tariff-2.png" alt="Standard sedan tariff">
+                            <h3>Standard</h3>
+                            <p>Daily sedan service</p>
+                            <div class="price"><span>$2</span>/km</div>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> City rides</li>
+                                <li><i class="fa-solid fa-check"></i> 3 passengers</li>
+                                <li><i class="fa-solid fa-check"></i> Live tracking</li>
+                            </ul>
+                            <button class="btn btn-dark w-100" type="button" data-bs-toggle="modal" data-bs-target="#bookingModal">Book Standard</button>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <article class="pricing-card reveal reveal-delay-1">
+                            <img src="img/_tariff-3.png" alt="Business SUV tariff">
+                            <h3>Business</h3>
+                            <p>Executive comfort</p>
+                            <div class="price"><span>$2.7</span>/km</div>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Priority pickup</li>
+                                <li><i class="fa-solid fa-check"></i> Quiet cabin</li>
+                                <li><i class="fa-solid fa-check"></i> Monthly billing</li>
+                            </ul>
+                            <button class="btn btn-dark w-100" type="button" data-bs-toggle="modal" data-bs-target="#bookingModal">Book Business</button>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <article class="pricing-card featured reveal reveal-delay-2">
+                            <span class="popular-tag">Popular</span>
+                            <img src="img/_tariff-4.png" alt="Luxury car tariff">
+                            <h3>VIP</h3>
+                            <p>Premium chauffeur ride</p>
+                            <div class="price"><span>$5</span>/km</div>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Luxury cars</li>
+                                <li><i class="fa-solid fa-check"></i> Event support</li>
+                                <li><i class="fa-solid fa-check"></i> Dedicated driver</li>
+                            </ul>
+                            <button class="btn btn-brand w-100" type="button" data-bs-toggle="modal" data-bs-target="#bookingModal">Book VIP</button>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <article class="pricing-card reveal reveal-delay-3">
+                            <img src="img/service4.png" alt="Mini van tariff">
+                            <h3>Mini Van</h3>
+                            <p>Group travel</p>
+                            <div class="price"><span>$4.5</span>/km</div>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> 7 passengers</li>
+                                <li><i class="fa-solid fa-check"></i> Extra luggage</li>
+                                <li><i class="fa-solid fa-check"></i> Airport-ready</li>
+                            </ul>
+                            <button class="btn btn-dark w-100" type="button" data-bs-toggle="modal" data-bs-target="#bookingModal">Book Van</button>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding premium-section" id="premium" aria-labelledby="premiumTitle">
+            <div class="container">
+                <div class="row align-items-center gy-5">
+                    <div class="col-lg-6">
+                        <div class="premium-copy reveal">
+                            <span class="section-kicker">Premium services</span>
+                            <h2 id="premiumTitle">A chauffeur-level experience without friction</h2>
+                            <p>Our premium ride service is designed for moments when arrival matters: executive guests, event entrances, hotel transfers, and private schedules.</p>
+                            <div class="premium-list">
+                                <span><i class="fa-solid fa-user-tie"></i> Professional chauffeur</span>
+                                <span><i class="fa-solid fa-bottle-water"></i> Comfort amenities</span>
+                                <span><i class="fa-solid fa-lock"></i> Private booking support</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="premium-image reveal reveal-delay-1">
+                            <img src="https://images.unsplash.com/photo-1492666918209-d0a9ea801f2f?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Taxi driving through a city street">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding emergency-section" id="emergency" aria-labelledby="emergencyTitle">
+            <div class="container">
+                <div class="emergency-panel reveal">
+                    <div>
+                        <span class="section-kicker">Emergency taxi support</span>
+                        <h2 id="emergencyTitle">Need a cab right now?</h2>
+                        <p>Call our dispatch desk for urgent pickups, late-night rides, medical visits, and time-sensitive transfers.</p>
+                    </div>
+                    <a class="btn btn-brand btn-lg" href="tel:+15550198765">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        Call Dispatch
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding corporate-section" id="corporate" aria-labelledby="corporateTitle">
+            <div class="container">
+                <div class="row gy-4 align-items-stretch">
+                    <div class="col-lg-5">
+                        <div class="section-heading text-lg-start reveal">
+                            <span class="section-kicker">Corporate packages</span>
+                            <h2 id="corporateTitle">A smarter taxi account for teams</h2>
+                            <p>Centralized booking, monthly billing, ride reporting, and priority support for offices, hotels, hospitals, and event organizers.</p>
+                            <a class="btn btn-dark" href="contact.html">
+                                <i class="fa-solid fa-envelope"></i>
+                                Request corporate quote
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="corporate-feature reveal">
+                                    <i class="fa-solid fa-file-invoice-dollar"></i>
+                                    <h3>Monthly invoicing</h3>
+                                    <p>Clear reports for finance teams and account managers.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="corporate-feature reveal reveal-delay-1">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <h3>Scheduled rides</h3>
+                                    <p>Pre-book employee, guest, and airport pickup schedules.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="corporate-feature reveal reveal-delay-2">
+                                    <i class="fa-solid fa-ranking-star"></i>
+                                    <h3>Priority dispatch</h3>
+                                    <p>Business accounts move to the front of dispatch queues.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="corporate-feature reveal reveal-delay-3">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <h3>Ride analytics</h3>
+                                    <p>Track spend, route frequency, and team transportation needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding fleet-section" id="fleetService" aria-labelledby="fleetServiceTitle">
+            <div class="container">
+                <div class="section-heading text-center reveal">
+                    <span class="section-kicker">Fleet options</span>
+                    <h2 id="fleetServiceTitle">Cars for solo rides, teams, and VIP guests</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-xl-3">
+                        <article class="fleet-card reveal">
+                            <img src="img/service1.png" alt="Sedan taxi">
+                            <div class="fleet-body">
+                                <h3>Sedan</h3>
+                                <p>Clean daily city rides.</p>
+                                <span class="fleet-price">3 seats</span>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <article class="fleet-card reveal reveal-delay-1">
+                            <img src="img/service2.png" alt="SUV taxi">
+                            <div class="fleet-body">
+                                <h3>SUV</h3>
+                                <p>Room for luggage and families.</p>
+                                <span class="fleet-price">5 seats</span>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <article class="fleet-card reveal reveal-delay-2">
+                            <img src="img/service3.png" alt="Luxury taxi">
+                            <div class="fleet-body">
+                                <h3>Luxury Car</h3>
+                                <p>Premium arrivals and events.</p>
+                                <span class="fleet-price">VIP</span>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <article class="fleet-card reveal reveal-delay-3">
+                            <img src="img/service4.png" alt="Mini van taxi">
+                            <div class="fleet-body">
+                                <h3>Mini Van</h3>
+                                <p>Easy group transport.</p>
+                                <span class="fleet-price">7 seats</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <a class="footer-brand" href="index.html">
+                            <span class="brand-mark"><i class="fa-solid fa-taxi"></i></span>
+                            <span>Taxi <strong>Cab</strong></span>
+                        </a>
+                        <p>Premium 24/7 taxi service for airport transfers, business travel, city rides, and long-distance journeys.</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" aria-label="X Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <h2>Services</h2>
+                        <ul>
+                            <li><a href="services.html">Airport Transfer</a></li>
+                            <li><a href="services.html">City Ride</a></li>
+                            <li><a href="services.html">Corporate Taxi</a></li>
+                            <li><a href="services.html">Luxury Cab</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h2>Contact Info</h2>
+                        <ul class="contact-list">
+                            <li><i class="fa-solid fa-location-dot"></i> 43 2nd Avenue, New York, NY</li>
+                            <li><i class="fa-solid fa-phone"></i> +1 (555) 019-8765</li>
+                            <li><i class="fa-solid fa-envelope"></i> hello@taxicab.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Taxi Cab. All rights reserved.</p>
+                <a href="#">Back to top</a>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" type="button" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content booking-modal">
+                <div class="modal-header">
+                    <div>
+                        <span class="section-kicker">Reserve a cab</span>
+                        <h2 class="modal-title" id="bookingModalLabel">Book your ride</h2>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form data-modal-booking-form>
+                    <div class="modal-body">
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <label class="form-label" for="modalName">Full Name</label>
+                                <input class="form-control" id="modalName" type="text" placeholder="Your name" required>
+                            </div>
+                            <div class="col-sm-6">
+                                <label class="form-label" for="modalPhone">Phone Number</label>
+                                <input class="form-control" id="modalPhone" type="tel" placeholder="+1 555 000 0000" required>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="modalPickup">Pickup Location</label>
+                                <input class="form-control" id="modalPickup" type="text" placeholder="Pickup address" required>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="modalDrop">Drop Location</label>
+                                <input class="form-control" id="modalDrop" type="text" placeholder="Destination address" required>
+                            </div>
+                            <div class="col-sm-6">
+                                <label class="form-label" for="modalTime">Date &amp; Time</label>
+                                <input class="form-control" id="modalTime" type="datetime-local" required>
+                            </div>
+                            <div class="col-sm-6">
+                                <label class="form-label" for="modalCar">Car Type</label>
+                                <select class="form-select" id="modalCar" required>
+                                    <option value="" selected disabled>Select car</option>
+                                    <option>Sedan</option>
+                                    <option>SUV</option>
+                                    <option>Luxury Car</option>
+                                    <option>Mini Van</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <p class="form-message" data-form-message></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-brand">
+                            <i class="fa-solid fa-check"></i>
+                            Confirm Booking
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,392 @@
+@media (max-width: 1199.98px) {
+    .hero-content h1 {
+        font-size: 60px;
+    }
+
+    .hero-content p {
+        font-size: 21px;
+    }
+
+    .section-heading h2,
+    .premium-copy h2 {
+        font-size: 40px;
+    }
+
+    .page-hero h1 {
+        font-size: 52px;
+    }
+
+    .booking-panel {
+        padding: 26px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    :root {
+        --header-height: 74px;
+    }
+
+    .site-header {
+        background: rgba(9, 9, 9, 0.92);
+    }
+
+    .navbar-collapse {
+        margin-top: 16px;
+        padding: 18px;
+        background: rgba(9, 9, 9, 0.96);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: var(--radius);
+    }
+
+    .navbar-nav {
+        align-items: stretch !important;
+    }
+
+    .navbar .nav-link {
+        padding: 11px 0;
+    }
+
+    .navbar .nav-link::after {
+        left: 0;
+        right: auto;
+        width: 38px;
+    }
+
+    .navbar .btn {
+        width: 100%;
+        margin-top: 12px;
+    }
+
+    .hero-section {
+        min-height: 86vh;
+        padding: 128px 0 82px;
+    }
+
+    .hero-overlay {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.58));
+    }
+
+    .hero-content {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .hero-content h1 {
+        font-size: 54px;
+    }
+
+    .hero-content p {
+        margin: 0 auto;
+    }
+
+    .hero-actions,
+    .hero-badges {
+        justify-content: center;
+    }
+
+    .hero-visual {
+        min-height: 280px;
+    }
+
+    .hero-visual img {
+        width: min(520px, 100%);
+    }
+
+    .booking-section {
+        margin-top: -36px;
+    }
+
+    .section-padding {
+        padding: 82px 0;
+    }
+
+    .section-heading {
+        margin-bottom: 38px;
+    }
+
+    .section-heading h2,
+    .premium-copy h2,
+    .cta-panel h2,
+    .emergency-panel h2 {
+        font-size: 36px;
+    }
+
+    .testimonial-card {
+        min-height: auto;
+    }
+
+    .cta-panel,
+    .emergency-panel {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .page-hero {
+        min-height: 440px;
+        padding: 130px 0 72px;
+    }
+
+    .page-hero h1 {
+        font-size: 46px;
+    }
+
+    .image-stack .main-img,
+    .premium-image img {
+        height: 430px;
+    }
+
+    .pricing-card.featured {
+        transform: none;
+    }
+
+    .map-section {
+        padding-bottom: 82px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    body {
+        font-size: 15px;
+    }
+
+    .brand,
+    .footer-brand {
+        font-size: 22px;
+    }
+
+    .brand-mark {
+        width: 39px;
+        height: 39px;
+    }
+
+    .hero-section {
+        min-height: 84vh;
+        padding: 118px 0 72px;
+    }
+
+    .hero-content h1 {
+        font-size: 44px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+
+    .hero-actions .btn {
+        width: 100%;
+    }
+
+    .hero-badges span {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero-visual {
+        min-height: 220px;
+    }
+
+    .chip-top {
+        top: 0;
+        right: 0;
+    }
+
+    .chip-bottom {
+        bottom: 0;
+        left: 0;
+    }
+
+    .ride-chip {
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+    .booking-panel,
+    .contact-form-panel,
+    .contact-info-panel,
+    .trust-panel,
+    .cta-panel,
+    .emergency-panel {
+        padding: 24px;
+    }
+
+    .section-heading h2,
+    .premium-copy h2,
+    .contact-form-panel h2,
+    .contact-info-panel h2 {
+        font-size: 32px;
+    }
+
+    .section-heading p {
+        font-size: 16px;
+    }
+
+    .feature-item,
+    .timeline-item,
+    .testimonial-card {
+        flex-direction: column;
+    }
+
+    .testimonial-card {
+        align-items: flex-start;
+        padding: 28px;
+    }
+
+    .testimonial-card p {
+        font-size: 20px;
+    }
+
+    .stat-item span {
+        font-size: 40px;
+    }
+
+    .page-hero h1 {
+        font-size: 38px;
+    }
+
+    .page-hero p {
+        font-size: 18px;
+    }
+
+    .image-stack {
+        padding: 0 0 96px;
+    }
+
+    .image-stack .main-img,
+    .premium-image img {
+        height: 360px;
+    }
+
+    .experience-card {
+        left: 18px;
+        right: 18px;
+        bottom: 18px;
+        width: auto;
+    }
+
+    .team-card img {
+        height: 260px;
+    }
+
+    .map-wrap iframe {
+        height: 350px;
+    }
+
+    .footer-bottom {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container {
+        width: min(100% - 28px, 540px);
+    }
+
+    .site-header {
+        padding: 10px 0;
+    }
+
+    .hero-section {
+        min-height: 82vh;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .hero-visual {
+        display: none;
+    }
+
+    .booking-section {
+        margin-top: -24px;
+    }
+
+    .booking-panel h2 {
+        font-size: 24px;
+    }
+
+    .section-padding {
+        padding: 64px 0;
+    }
+
+    .section-heading h2,
+    .premium-copy h2,
+    .cta-panel h2,
+    .emergency-panel h2,
+    .contact-form-panel h2,
+    .contact-info-panel h2 {
+        font-size: 28px;
+    }
+
+    .service-card,
+    .mission-card,
+    .detail-card,
+    .pricing-card,
+    .corporate-feature,
+    .support-card {
+        padding: 24px;
+    }
+
+    .fleet-card img {
+        height: 150px;
+    }
+
+    .testimonial-card img {
+        width: 86px;
+        height: 86px;
+    }
+
+    .stats-section {
+        padding: 58px 0;
+    }
+
+    .stat-item span {
+        font-size: 34px;
+    }
+
+    .page-hero {
+        min-height: 390px;
+        padding: 118px 0 58px;
+    }
+
+    .page-hero h1 {
+        font-size: 32px;
+    }
+
+    .page-hero p {
+        font-size: 16px;
+    }
+
+    .image-stack .main-img,
+    .premium-image img {
+        height: 300px;
+    }
+
+    .timeline-item {
+        padding: 22px;
+    }
+
+    .price span {
+        font-size: 38px;
+    }
+
+    .contact-info-item {
+        flex-direction: column;
+    }
+
+    .map-section {
+        padding-bottom: 64px;
+    }
+
+    .scroll-top {
+        right: 14px;
+        bottom: 14px;
+        width: 42px;
+        height: 42px;
+    }
+}
